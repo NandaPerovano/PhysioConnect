@@ -56,7 +56,7 @@ struct LoginView: View {
         }
         .padding()
         .fullScreenCover(isPresented: $viewModel.isLoggedIn) {
-            Home()
+            WelcomeView()
         }
     }
 }

@@ -9,23 +9,19 @@ import Foundation
 import Combine
 
 class LoginViewModel: ObservableObject {
-    @Published var email: String = ""
-    @Published var password: String = ""
-    @Published var isLoggedIn: Bool = false
+    @Published var email = ""
+    @Published var password = ""
+    @Published var isLoggedIn = false
+    @Published var userType: UserType = .paciente // setado após o login real
     @Published var errorMessage: String?
 
     func login() {
-        // Simulação de validação simples
-        if email.isEmpty || password.isEmpty {
-            errorMessage = "Preencha todos os campos"
-            return
-        }
-
-        if email == "user@example.com" && password == "123456" {
-            isLoggedIn = true
-            errorMessage = nil
+        // Simulação de login
+        if email == "paciente@email.com" {
+            userType = .paciente
         } else {
-            errorMessage = "Credenciais inválidas"
+            userType = .profissional
         }
+        isLoggedIn = true
     }
 }

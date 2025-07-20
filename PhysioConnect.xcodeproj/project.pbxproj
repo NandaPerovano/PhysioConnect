@@ -16,7 +16,7 @@
 		33307EFE2E26BEA100C59CBC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307EFD2E26BEA100C59CBC /* LoginViewModel.swift */; };
 		33307F002E26BEE900C59CBC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307EFF2E26BEE900C59CBC /* LoginView.swift */; };
 		33307F022E26BF2500C59CBC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307F012E26BF2500C59CBC /* Utils.swift */; };
-		33307F042E26C23000C59CBC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307F032E26C23000C59CBC /* Home.swift */; };
+		33307F042E26C23000C59CBC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307F032E26C23000C59CBC /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		33307EFD2E26BEA100C59CBC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		33307EFF2E26BEE900C59CBC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		33307F012E26BF2500C59CBC /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		33307F032E26C23000C59CBC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		33307F032E26C23000C59CBC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 				33307F082E26C35C00C59CBC /* Login */,
 				33307ED32E26BE4000C59CBC /* PhysioConnectApp.swift */,
 				33307F012E26BF2500C59CBC /* Utils.swift */,
-				33307F032E26C23000C59CBC /* Home.swift */,
+				33307F032E26C23000C59CBC /* WelcomeView.swift */,
 				33307ED72E26BE4200C59CBC /* Assets.xcassets */,
 				33307ED92E26BE4200C59CBC /* Preview Content */,
 			);
@@ -276,7 +276,7 @@
 			files = (
 				33307F022E26BF2500C59CBC /* Utils.swift in Sources */,
 				33307ED42E26BE4000C59CBC /* PhysioConnectApp.swift in Sources */,
-				33307F042E26C23000C59CBC /* Home.swift in Sources */,
+				33307F042E26C23000C59CBC /* WelcomeView.swift in Sources */,
 				33307F002E26BEE900C59CBC /* LoginView.swift in Sources */,
 				33307EFE2E26BEA100C59CBC /* LoginViewModel.swift in Sources */,
 			);
