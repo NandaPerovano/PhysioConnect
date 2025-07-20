@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33307ED42E26BE4000C59CBC /* PhysioConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307ED32E26BE4000C59CBC /* PhysioConnectApp.swift */; };
+		33307ED82E26BE4200C59CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33307ED72E26BE4200C59CBC /* Assets.xcassets */; };
+		33307EDB2E26BE4200C59CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33307EDA2E26BE4200C59CBC /* Preview Assets.xcassets */; };
+		33307EE52E26BE4200C59CBC /* PhysioConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307EE42E26BE4200C59CBC /* PhysioConnectTests.swift */; };
+		33307EEF2E26BE4200C59CBC /* PhysioConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307EEE2E26BE4200C59CBC /* PhysioConnectUITests.swift */; };
+		33307EF12E26BE4200C59CBC /* PhysioConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307EF02E26BE4200C59CBC /* PhysioConnectUITestsLaunchTests.swift */; };
+		33307EFE2E26BEA100C59CBC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307EFD2E26BEA100C59CBC /* LoginViewModel.swift */; };
+		33307F002E26BEE900C59CBC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307EFF2E26BEE900C59CBC /* LoginView.swift */; };
+		33307F022E26BF2500C59CBC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307F012E26BF2500C59CBC /* Utils.swift */; };
+		33307F042E26C23000C59CBC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33307F032E26C23000C59CBC /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33307EE12E26BE4200C59CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33307EC82E26BE4000C59CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33307ECF2E26BE4000C59CBC;
+			remoteInfo = PhysioConnect;
+		};
+		33307EEB2E26BE4200C59CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33307EC82E26BE4000C59CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33307ECF2E26BE4000C59CBC;
+			remoteInfo = PhysioConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33307ED02E26BE4000C59CBC /* PhysioConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysioConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33307ED32E26BE4000C59CBC /* PhysioConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysioConnectApp.swift; sourceTree = "<group>"; };
+		33307ED72E26BE4200C59CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33307EDA2E26BE4200C59CBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33307EE02E26BE4200C59CBC /* PhysioConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysioConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33307EE42E26BE4200C59CBC /* PhysioConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysioConnectTests.swift; sourceTree = "<group>"; };
+		33307EEA2E26BE4200C59CBC /* PhysioConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysioConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33307EEE2E26BE4200C59CBC /* PhysioConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysioConnectUITests.swift; sourceTree = "<group>"; };
+		33307EF02E26BE4200C59CBC /* PhysioConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysioConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33307EFD2E26BEA100C59CBC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		33307EFF2E26BEE900C59CBC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		33307F012E26BF2500C59CBC /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		33307F032E26C23000C59CBC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33307ECD2E26BE4000C59CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33307EDD2E26BE4200C59CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33307EE72E26BE4200C59CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33307EC72E26BE4000C59CBC = {
+			isa = PBXGroup;
+			children = (
+				33307ED22E26BE4000C59CBC /* PhysioConnect */,
+				33307EE32E26BE4200C59CBC /* PhysioConnectTests */,
+				33307EED2E26BE4200C59CBC /* PhysioConnectUITests */,
+				33307ED12E26BE4000C59CBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33307ED12E26BE4000C59CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33307ED02E26BE4000C59CBC /* PhysioConnect.app */,
+				33307EE02E26BE4200C59CBC /* PhysioConnectTests.xctest */,
+				33307EEA2E26BE4200C59CBC /* PhysioConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33307ED22E26BE4000C59CBC /* PhysioConnect */ = {
+			isa = PBXGroup;
+			children = (
+				33307F082E26C35C00C59CBC /* Login */,
+				33307ED32E26BE4000C59CBC /* PhysioConnectApp.swift */,
+				33307F012E26BF2500C59CBC /* Utils.swift */,
+				33307F032E26C23000C59CBC /* Home.swift */,
+				33307ED72E26BE4200C59CBC /* Assets.xcassets */,
+				33307ED92E26BE4200C59CBC /* Preview Content */,
+			);
+			path = PhysioConnect;
+			sourceTree = "<group>";
+		};
+		33307ED92E26BE4200C59CBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33307EDA2E26BE4200C59CBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33307EE32E26BE4200C59CBC /* PhysioConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				33307EE42E26BE4200C59CBC /* PhysioConnectTests.swift */,
+			);
+			path = PhysioConnectTests;
+			sourceTree = "<group>";
+		};
+		33307EED2E26BE4200C59CBC /* PhysioConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33307EEE2E26BE4200C59CBC /* PhysioConnectUITests.swift */,
+				33307EF02E26BE4200C59CBC /* PhysioConnectUITestsLaunchTests.swift */,
+			);
+			path = PhysioConnectUITests;
+			sourceTree = "<group>";
+		};
+		33307F082E26C35C00C59CBC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				33307EFF2E26BEE900C59CBC /* LoginView.swift */,
+				33307EFD2E26BEA100C59CBC /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33307ECF2E26BE4000C59CBC /* PhysioConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33307EF42E26BE4200C59CBC /* Build configuration list for PBXNativeTarget "PhysioConnect" */;
+			buildPhases = (
+				33307ECC2E26BE4000C59CBC /* Sources */,
+				33307ECD2E26BE4000C59CBC /* Frameworks */,
+				33307ECE2E26BE4000C59CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysioConnect;
+			productName = PhysioConnect;
+			productReference = 33307ED02E26BE4000C59CBC /* PhysioConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33307EDF2E26BE4200C59CBC /* PhysioConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33307EF72E26BE4200C59CBC /* Build configuration list for PBXNativeTarget "PhysioConnectTests" */;
+			buildPhases = (
+				33307EDC2E26BE4200C59CBC /* Sources */,
+				33307EDD2E26BE4200C59CBC /* Frameworks */,
+				33307EDE2E26BE4200C59CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33307EE22E26BE4200C59CBC /* PBXTargetDependency */,
+			);
+			name = PhysioConnectTests;
+			productName = PhysioConnectTests;
+			productReference = 33307EE02E26BE4200C59CBC /* PhysioConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33307EE92E26BE4200C59CBC /* PhysioConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33307EFA2E26BE4200C59CBC /* Build configuration list for PBXNativeTarget "PhysioConnectUITests" */;
+			buildPhases = (
+				33307EE62E26BE4200C59CBC /* Sources */,
+				33307EE72E26BE4200C59CBC /* Frameworks */,
+				33307EE82E26BE4200C59CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33307EEC2E26BE4200C59CBC /* PBXTargetDependency */,
+			);
+			name = PhysioConnectUITests;
+			productName = PhysioConnectUITests;
+			productReference = 33307EEA2E26BE4200C59CBC /* PhysioConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33307EC82E26BE4000C59CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					33307ECF2E26BE4000C59CBC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					33307EDF2E26BE4200C59CBC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 33307ECF2E26BE4000C59CBC;
+					};
+					33307EE92E26BE4200C59CBC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 33307ECF2E26BE4000C59CBC;
+					};
+				};
+			};
+			buildConfigurationList = 33307ECB2E26BE4000C59CBC /* Build configuration list for PBXProject "PhysioConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33307EC72E26BE4000C59CBC;
+			productRefGroup = 33307ED12E26BE4000C59CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33307ECF2E26BE4000C59CBC /* PhysioConnect */,
+				33307EDF2E26BE4200C59CBC /* PhysioConnectTests */,
+				33307EE92E26BE4200C59CBC /* PhysioConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33307ECE2E26BE4000C59CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33307EDB2E26BE4200C59CBC /* Preview Assets.xcassets in Resources */,
+				33307ED82E26BE4200C59CBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33307EDE2E26BE4200C59CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33307EE82E26BE4200C59CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33307ECC2E26BE4000C59CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33307F022E26BF2500C59CBC /* Utils.swift in Sources */,
+				33307ED42E26BE4000C59CBC /* PhysioConnectApp.swift in Sources */,
+				33307F042E26C23000C59CBC /* Home.swift in Sources */,
+				33307F002E26BEE900C59CBC /* LoginView.swift in Sources */,
+				33307EFE2E26BEA100C59CBC /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33307EDC2E26BE4200C59CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33307EE52E26BE4200C59CBC /* PhysioConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33307EE62E26BE4200C59CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33307EEF2E26BE4200C59CBC /* PhysioConnectUITests.swift in Sources */,
+				33307EF12E26BE4200C59CBC /* PhysioConnectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33307EE22E26BE4200C59CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33307ECF2E26BE4000C59CBC /* PhysioConnect */;
+			targetProxy = 33307EE12E26BE4200C59CBC /* PBXContainerItemProxy */;
+		};
+		33307EEC2E26BE4200C59CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33307ECF2E26BE4000C59CBC /* PhysioConnect */;
+			targetProxy = 33307EEB2E26BE4200C59CBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33307EF22E26BE4200C59CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33307EF32E26BE4200C59CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33307EF52E26BE4200C59CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhysioConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = 3UT276DC9L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandaPerovano.PhysioConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33307EF62E26BE4200C59CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhysioConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = 3UT276DC9L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandaPerovano.PhysioConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33307EF82E26BE4200C59CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UT276DC9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandaPerovano.PhysioConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhysioConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhysioConnect";
+			};
+			name = Debug;
+		};
+		33307EF92E26BE4200C59CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UT276DC9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandaPerovano.PhysioConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhysioConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhysioConnect";
+			};
+			name = Release;
+		};
+		33307EFB2E26BE4200C59CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UT276DC9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandaPerovano.PhysioConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhysioConnect;
+			};
+			name = Debug;
+		};
+		33307EFC2E26BE4200C59CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UT276DC9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nandaPerovano.PhysioConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhysioConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33307ECB2E26BE4000C59CBC /* Build configuration list for PBXProject "PhysioConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33307EF22E26BE4200C59CBC /* Debug */,
+				33307EF32E26BE4200C59CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33307EF42E26BE4200C59CBC /* Build configuration list for PBXNativeTarget "PhysioConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33307EF52E26BE4200C59CBC /* Debug */,
+				33307EF62E26BE4200C59CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33307EF72E26BE4200C59CBC /* Build configuration list for PBXNativeTarget "PhysioConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33307EF82E26BE4200C59CBC /* Debug */,
+				33307EF92E26BE4200C59CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33307EFA2E26BE4200C59CBC /* Build configuration list for PBXNativeTarget "PhysioConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33307EFB2E26BE4200C59CBC /* Debug */,
+				33307EFC2E26BE4200C59CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33307EC82E26BE4000C59CBC /* Project object */;
+}
